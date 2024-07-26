@@ -1,0 +1,24 @@
+.admin-dashboard {
+  padding: 2rem;
+  text-align: center;
+}
+
+.admin-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.admin-link {
+  margin: 0 1rem;
+  padding: 1rem;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.admin-link:hover {
+  background-color: #555;
+}

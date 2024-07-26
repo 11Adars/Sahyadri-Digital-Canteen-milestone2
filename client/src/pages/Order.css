@@ -1,0 +1,48 @@
+.order {
+  padding: 2rem;
+ 
+}
+
+.order h1 {
+  margin: 2rem 0;
+  
+}
+.order p{
+  border: 5px solid #ec5151;
+  border-radius: 520px;
+  padding: 15px;
+  background-color: hsla(56, 27%, 88%, 0.95);
+  text-align: center;
+}
+
+
+.order h2{
+  border: 5px solid #ec5151;
+  border-radius: 520px;
+  padding: 15px;
+  background-color: hsla(56, 27%, 88%, 0.95);
+  text-align: center;
+}
+.order p1{
+  border: 5px solid #ec5151;
+  border-radius: 520px;
+  padding: 15px;
+  background-color: hsla(56, 27%, 88%, 0.95);
+  text-align: center;
+}
+
+
+.order button {
+  padding: 1.5rem 1rem;
+  margin: 1.5rem;
+  background-color: #0be872d3;
+  color: #040404;
+  border:none;
+  border-radius: 55px;
+  cursor: pointer;
+  
+}
+
+.order button:hover {
+  background-color: #7030d1;
+}

@@ -1,0 +1,46 @@
+.admin-feedback {
+  padding: 2rem;
+}
+
+.admin-feedback h1 {
+  text-align: center;
+}
+
+.admin-feedback ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.admin-feedback li {
+  margin: 1rem 0;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.admin-feedback h2 {
+  margin: 0;
+}
+
+.admin-feedback p {
+  margin: 0.5rem 0;
+}
+
+.admin-feedback button {
+  padding: 0.5rem 1rem;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
+.admin-feedback button:hover {
+  background-color: #555;
+}
+
+.admin-feedback button:last-child {
+  margin-right: 0;
+}

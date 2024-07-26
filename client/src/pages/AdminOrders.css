@@ -1,0 +1,47 @@
+.admin-orders {
+    padding: 2rem;
+  }
+  
+  .admin-orders h1 {
+    text-align: center;
+  }
+  
+  .admin-orders ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .admin-orders li {
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .admin-orders h2 {
+    margin: 0;
+  }
+  
+  .admin-orders p {
+    margin: 0.5rem 0;
+  }
+  
+  .admin-orders button {
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 1rem;
+  }
+  
+  .admin-orders button:hover {
+    background-color: #555;
+  }
+  
+  .admin-orders button:last-child {
+    margin-right: 0;
+  }
+  

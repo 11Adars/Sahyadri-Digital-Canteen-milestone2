@@ -1,0 +1,76 @@
+.home-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.8); /* White background with opacity */
+  border-radius: 10px;
+  backdrop-filter: blur(10px); /* Blur effect */
+}
+
+body {
+  background-image: url('https://media.licdn.com/dms/image/C511BAQF20LF5pUubvw/company-background_10000/0/1584405140606/sahyadri_cover?e=2147483647&v=beta&t=HwHCKGqa6gCsOzA8b0uifNVyDca50F_dUEIsgVkGTYI');
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.login-form, .register-form {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #f9f9f9;
+}
+
+.login-form h2, .register-form h2 {
+  margin-bottom: 15px;
+}
+
+.login-form input, .register-form input, .register-form select {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #d07171;
+  border-radius: 4px;
+}
+
+.login-form button, .register-form button {
+  padding: 10px 15px;
+  font-size: 16px;
+  color: #2d2a75;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-form button:hover, .register-form button:hover {
+  background-color: #0056b3;
+}
+
+.register-form select {
+  margin-bottom: 20px;
+}
+
+button + button {
+  margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+  .home-container {
+    padding: 10px;
+  }
+
+  .login-form input, .register-form input, .register-form select {
+    width: calc(100% - 20px);
+  }
+}
+
+.footer {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 14px;
+  color: #eddfdf;
+}

@@ -1,0 +1,37 @@
+.feedback {
+  padding: 2rem;
+  text-align: center;
+}
+
+.feedback h1 {
+  margin-bottom: 2rem;
+}
+
+.feedback .form-group {
+  margin-bottom: 1rem;
+}
+
+.feedback label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.feedback textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}

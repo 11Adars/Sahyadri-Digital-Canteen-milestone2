@@ -1,0 +1,54 @@
+.admin-menu {
+  padding: 2rem;
+}
+
+.admin-menu h1 {
+  text-align: center;
+}
+
+.admin-menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.admin-menu li {
+  margin: 1rem 0;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.admin-menu h2 {
+  margin: 0;
+}
+
+.admin-menu p {
+  margin: 0.5rem 0;
+}
+
+.admin-menu button {
+  padding: 0.5rem 1rem;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
+.admin-menu button:hover {
+  background-color: #555;
+}
+
+.admin-menu button:last-child {
+  margin-right: 0;
+}
+
+.admin-menu button.add-button {
+  margin-top: 1rem;
+}
+
+.admin-menu button.add-button:hover {
+  background-color: #555;
+}

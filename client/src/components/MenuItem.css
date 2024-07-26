@@ -1,0 +1,14 @@
+.menu-item {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .menu-item img {
+    max-width: 100%;
+  }
+  
+  .item-details {
+    margin-top: 1rem;
+  }
+  
